@@ -8,7 +8,7 @@
 
 body {
 	width: 100%;
-	/* height: 100vh; */
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -190,9 +190,10 @@ footer > ul.container {
 	color: #0a66c2;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 780px) {
 	body {
 		background-color: #ffffff;
+		height: 100%;
 	}
 
 	.container {
