@@ -98,6 +98,7 @@ main h1 {
 	padding: 1em;
 	border-radius: 40px;
 	transition: all 100ms;
+	border: none;
 }
 
 #signup__button:hover {
