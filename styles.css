@@ -87,6 +87,10 @@ main h1 {
 	margin-top: 4px;
 }
 
+.main__form input::placeholder {
+	color: #8181819a;
+}
+
 .main__formCta {
 	text-align: center;
 	font-size: 0.8rem;
