@@ -25,7 +25,9 @@
 					<label for="email">
 						<p>Email or phone number</p>
 						<input
-							type="text"
+							type="email"
+							name="email"
+							id="email"
 							required
 							placeholder="eg: doe.john@example.com"
 						/>
@@ -34,6 +36,8 @@
 						<p>Password (6 or more characters)</p>
 						<input
 							type="password"
+							name="password"
+							id="password"
 							required
 							placeholder="eg: doesjohndoedoe"
 						/>
@@ -60,7 +64,13 @@
 				<a href="#">Get Help</a>
 			</p>
 		</main>
-		<footer class="">
+		<table id="table" class="container">
+			<tr>
+				<th>S. No.</th>
+				<th>Email</th>
+			</tr>
+		</table>
+		<footer>
 			<ul class="container">
 				<li class="footer__item">
 					<img
@@ -167,5 +177,6 @@
 				</li>
 			</ul>
 		</footer>
+		<script src="./script.js"></script>
 	</body>
 </html>
