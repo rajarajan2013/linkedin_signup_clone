@@ -59,7 +59,7 @@ git clone https://github.com/kunalkeshan/LinkedIn-Signup-Static-Clone.git
 - Open the `LinkedIn-Signup-Static-Clone` folder.
 - Open the `index.html` file in your browser to view the output.
 - View code with any text editor of your choice.
-- It should something like this:
+- It should be something like this:
 
 ![Output](/.github/assets/output.png)
 
