@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Sign Up | LinkedIn</title>
-		<link rel="icon" href="./assets/icon.png" />
+		<link rel="icon" href="./public/icon.png" />
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
@@ -13,7 +13,7 @@
 		<nav class="container">
 			<a href="./">
 				<img
-					src="./assets/linkedin.png"
+					src="./public/linkedin.png"
 					alt="LinkedIn Logo"
 					class="nav__logo"
 				/>
@@ -23,8 +23,8 @@
 		<!-- Signup Form -->
 		<main>
 			<h1>Make the most of your professional life</h1>
-			<div class="main__container">
-				<form class="main__form">
+			<div class="form_container">
+				<form class="form_main">
 					<label for="email">
 						<p>Email or phone number</p>
 						<input
@@ -32,7 +32,7 @@
 							name="email"
 							id="email"
 							required
-							placeholder="eg: doe.john@example.com"
+						
 						/>
 					</label>
 					<label for="password">
@@ -42,10 +42,10 @@
 							name="password"
 							id="password"
 							required
-							placeholder="eg: doesjohndoedoe"
+							
 						/>
 					</label>
-					<p class="main__formCta">
+					<p class="form_tc">
 						By clicking Agree & Join, you agree to the LinkedIn
 						<a href="#">User Agreement</a>,
 						<a href="#">Privacy Policy</a>, and
@@ -57,67 +57,60 @@
 				</form>
 				<div class="separator">or</div>
 				<button id="google__button">
-					<img src="./assets/google.png" alt="google logo" />
+					<img src="./public/google.png" alt="google logo" />
 					Continue with Google
 				</button>
 				<p>Already on LinkedIn? <a href="#">Sign In</a></p>
 			</div>
-			<p>
+		</main>
+		<footer>
+			<p class="foot">
 				Looking to create a page for your business?
 				<a href="#">Get Help</a>
 			</p>
-		</main>
-
-		<!-- Form entries -->
-		<table id="table" class="container">
-			<tr>
-				<th>S. No.</th>
-				<th>Email</th>
-			</tr>
-		</table>
-
-		<!-- Footer -->
-		<footer>
 			<ul class="container">
-				<li class="footer__item">
+				<li class="footer_items">
 					<img
-						src="./assets/linkedin.png"
+						src="./public/linkedin.png"
 						alt="LinkedIn Logo"
 						class="footer__logo"
 					/>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<p>&copy; 2022</p>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">About</a>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">Accessibility</a>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">User Agreement</a>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">Privacy Policy</a>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">Cookie Policy</a>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">Copyright Policy</a>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">Brand Policy</a>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">Guest Controls</a>
 				</li>
-				<li class="footer__item">
+				<li class="footer_items">
 					<a href="#" class="footer__link">Community Guidelines</a>
 				</li>
-				<li class="footer__item">
-					<select name="Language" class="footer__select">
+				<li class="footer_items">
+					<select name="Language" class="select_footer">
+						<option value="">
+							Languages
+						</option>
 						<option value="العربية (Arabic)">
 							العربية (Arabic)
 						</option>
